@@ -1,0 +1,54 @@
+src/test/kotlin/repro/BaseIntegrationTest.kt
+  s_9453c5a2bc3434::t_191ed33337d898 11
+  s_9453c5a2bc3434::t_6144753febeb2e 210,212
+  s_9453c5a2bc3434::t_0051c098171ebd 209,211,213-215
+  h_86c50d49f285ae 1-10,12-208,216-227
+src/test/kotlin/repro/BSecondTest.kt
+  h_86c50d49f285ae 1-9
+src/test/kotlin/repro/AFirstTest.kt
+  h_86c50d49f285ae 1-9
+build.gradle.kts
+  h_86c50d49f285ae 1-29
+.idea/workspace.xml
+  h_86c50d49f285ae 1-158,168,173-192,203-207
+  h_86c50d49f285ae 159-167,169-172,193-202
+gradlew
+  h_86c50d49f285ae 1-251
+gradle/wrapper/gradle-wrapper.properties
+  h_86c50d49f285ae 1-7
+gradlew.bat
+  h_86c50d49f285ae 1-94
+src/test/kotlin/repro/LeakReproducer.kt
+  h_86c50d49f285ae 1-129
+.idea/compiler.xml
+  h_86c50d49f285ae 1-6
+.idea/gradle.xml
+  h_86c50d49f285ae 1-16
+.idea/kotlinc.xml
+  h_86c50d49f285ae 1-7
+.idea/misc.xml
+  h_86c50d49f285ae 1-5
+.idea/vcs.xml
+  h_86c50d49f285ae 1-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "37a31be968158dcf3e44788734bd5b698474a500",
+  "prompts": {},
+  "humans": {
+    "h_86c50d49f285ae": {
+      "author": "man85 <man85@yandex.ru>"
+    }
+  },
+  "sessions": {
+    "s_9453c5a2bc3434": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_df2b9a181ffe84F7wmnW77T0ba",
+        "model": "heavy"
+      },
+      "human_author": null
+    }
+  }
+}
