@@ -1,0 +1,30 @@
+.idea/workspace.xml
+  h_86c50d49f285ae 1-188
+build.gradle.kts
+  h_86c50d49f285ae 1-29
+gradle/wrapper/gradle-wrapper.properties
+  h_86c50d49f285ae 1-7
+gradlew
+  h_86c50d49f285ae 1-251
+gradlew.bat
+  h_86c50d49f285ae 1-94
+src/test/kotlin/repro/AFirstTest.kt
+  h_86c50d49f285ae 1-9
+src/test/kotlin/repro/BSecondTest.kt
+  h_86c50d49f285ae 1-9
+src/test/kotlin/repro/BaseIntegrationTest.kt
+  h_86c50d49f285ae 1-226
+src/test/kotlin/repro/LeakReproducer.kt
+  h_86c50d49f285ae 1-129
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "25004693b8e59b81a9a23dcea48385d44d6be6fb",
+  "prompts": {},
+  "humans": {
+    "h_86c50d49f285ae": {
+      "author": "man85 <man85@yandex.ru>"
+    }
+  }
+}
