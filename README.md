@@ -1,0 +1,3 @@
+This project demonstrates a Spring context memory leak caused by a `ContextAwareHttpClientMetricsRecorder` holding a reference to an injected bean, which in turn retains the entire `Spring ApplicationContext` through a reference chain.
+
+The root cause is the static cache field in `AddressResolverGroupMetrics`, which never evicts `AddressResolverGroupMetrics<>(resolverGroup, recorder)` entries after a Spring context is closed. `MicrometerAddressResolverGroupMetrics` suffers from the same issue.
